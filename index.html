@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<script src="index.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="topbar">
+        <center><p style="font-family:verdana;font-size: 25px">Insult Generator</p></center>
+        <p style="font-family:verdana;font-size: 15px">don't expect anything creative<br>
+        I'm not good at coding<br>
+        also I spent 8 hours trying to figure out how to link the html to the javascript
+    </div>
+    <div id="container">
+        <div id="leftbar">
+            <p style="font-family:verdana;font-size: 15px">Questions<br>
+                I was planning to have a lot more questions but it took me 2 weeks to figure out how to use user input<br>
+                enter your name here for a personal insult</p><br>
+            <form id="form">
+                <input type="text" id="userInput">
+                <input type="button" value="generate personal insult"onclick="name1()">
+                </form>
+            <p style="font-family:verdana;font-size: 15px">enter someone's name here</p><br>
+            <form id="form1">
+                <input type="text" id="userInput1">
+            </form>
+            <p style="font-family:verdana;font-size: 15px">enter what someone is here</p><br>
+            <form id="form2">
+                <input type="text" id="userInput2">
+                <p>then click here</p><br>
+                <input type="button" value="generate a more custom insult"onclick="name2()">
+                </form>
+                <p style="font-family:verdana;font-size: 15px">(this literally adds 'is' between the two words you entered, just use a pencil)</p><br>
+        </div>
+        <div id="rightbar">
+            <p id="insult" class="text" style="font-family:verdana;font-size: 25px">your insult goes here</p><br>
+            <p style="font-family:verdana;font-size: 15px">here's a bunch of buttons that do uninteresting stuff</p><br>
+            <button onclick='document.getElementById("insult").innerHTML = "you are dumb"'> small insult </button>
+            <button onclick='document.getElementById("insult").innerHTML = "you are very dumb"'> medium insult </button>
+            <button onclick='document.getElementById("insult").innerHTML = "you are extremely dumb"'> big insult </button>
+            <button onclick="randomInsult()"> generate random insult from a list </button>
+            <button onclick="creativeInsult()"> random insult, slightly more creative, not necessarily applicable to you </button>
+            <button onclick='document.getElementById("insult").innerHTML = "your insult goes here"'> reset </button>
+        </div>
+    </div>
+</body>
+</html>
+why doesn't<br>
+my code work<br>
+here's an image<br>
+<img src="https://ichef.bbci.co.uk/images/ic/400xn/p07dsmmn.jpg" alt="dog falls over">
+my code works now yay
