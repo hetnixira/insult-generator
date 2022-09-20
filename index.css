@@ -1,0 +1,19 @@
+#topbar{
+    width:98vw;
+    height:20vw;
+    background-color: cyan;
+}
+
+#container{
+    display: flex;
+}
+#leftbar{
+    width:50vw;
+    height:80vw;
+    background-color: rgba(0, 137, 137, 0.905);
+}
+#rightbar{
+    width:50vw;
+    height:80vw;
+    background-color: rgba(0, 59, 59, 0.703);
+}
